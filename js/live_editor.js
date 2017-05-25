@@ -114,7 +114,7 @@ var ReactPlayground = React.createClass({
           presets: presets
         }).code;
       },
-      editorTabTitle: 'Live JSX Editor',
+      editorTabTitle: 'Edytor JSX',
       showCompiledJSTab: true,
       showLineNumbers: false
     };
@@ -184,7 +184,7 @@ var ReactPlayground = React.createClass({
           lineNumber: 160
         }
       },
-      'Compiled JS'
+      'Skompilowany kod JS'
     );
 
     var JSXTab = React.createElement(
